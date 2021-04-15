@@ -1,0 +1,187 @@
+Scrum:
+	An agile process. Highest business value -> Shortest Time
+	Allows rapid inspection of working software (Every 2 weeks / month)
+	Business sets the priorites - Teams self organise to determine best way to deliver high priority features
+	Every two weeks / month = anyone can see real working softwareand decide to release as is, or enhance in next sprint
+
+Product Backlog -> Sprint backlog -> 2/4 week sprint with daily meetings -> Potentially shippable product increment
+
+Constant sprint duration = Better Rhythm
+	Product -> Designed, coded and tested during sprint
+
+Scrum teams do a little of everything all the time -> Rather than doing all of one thing at a time
+
+CHANGES KEPT OUT OF SPRINT:
+
+Roles:
+	-> Product Owner
+	-> Scrum Master
+	-> Team
+
+Ceremonies:
+	-> Sprint planning
+	-> Sprint review
+	-> Sprint retrospective
+	-> Daily scrum meeting
+
+Artefacts:
+	-> Product backlog
+	-> Sprint backlog
+	-> Burndown charts
+
+Product Owner:
+
+	Define features of the product, decide on release date / content
+
+	Be responsible for profitability of project
+		-> Determines potential ROI (Return on investment) For each user story
+
+	Priortise features according to market value
+
+	Adjust features / priortiy every sprint
+
+	Accept or reject work results
+
+	Decide if increment is released 
+
+The Scrum Master:
+
+	Represents management to the project
+	
+	Responsible for enacting Scrum values and practices
+
+	Removes impediments to progress
+
+	Ensure the team is fully functional / productive
+
+	Enable close cooperation across all roles / functions
+	
+	Shield the team from external interferences
+
+The Scrum Team:
+	Opinions differ: may vary from 3-9 people (SM / PO only included if they are actively developing)
+
+	Cross functional: Programmers / Testers / UI designers -> All skills needed
+
+	Members should be full-time (Some exceptions made where skills are in short supply)
+	
+	Teams self-organising = Decide what work to do
+	
+	Membership should change only between sprints according to next sprint goal
+
+***************************************************************************************************************
+
+Sprint Planning:
+	Time boxed to max 8 hours for one month sprint, less for shorter sprints
+	Teams pick highest priority tasks from backlog and commit to completing
+	
+	Sprint backlog is created:
+		Tasks identified and each is estimated 1-7 hours
+		Done collaboratively
+		User Stories used
+
+****************************************************************************************************************
+
+Daily Scrum:
+	Daily 15 minute, stand up:
+		Quick = Avoids unneccasry meetings,
+			what did you do yesterday, what to do today, what do you need help with
+
+		Commitment in front of peers = Very social
+
+Scrum Master is responsible for moving the reporting along quickly
+One person talks at a time, Everyone listens, No side conversations, No Gossip
+
+Common Daily Meetings Problem:
+	Implicit Impediments:	People are not truly honest about the severity of problems
+	Side Discussion
+	People ramble and waste time
+	Sidetracked meeting: Meeting sometimes happen immeditaly afterwards
+	Late Arrivals
+
+*********************************************************************************************************************
+
+The Sprint Review:
+	Scrum Team presents what it accomplished during sprint:
+		Typically there's a demo of new feature
+	
+	Informal 2 hour prep time
+	4 hour meeting for one month sprint Scrum Team / Stakeholders / Product Owner
+
+Scrum Team discusses what went well, problems they ran into. Demonstrates work.
+Owner provides feedback, and change requests
+
+Owner discusses product backlog and may project likely completion dates
+
+Entire group collaborates on what to do next - Valuable insight into next Sprint Planning
+
+********************************************************************************************************************
+
+Sprint Retrospective: -> Look at what is and is not working
+
+Occurs after every Sprint Review and before Sprint planning
+
+3-hour meeting for one month sprints
+
+Whole team participates
+
+Inspect how sprint went with regards to people, relationships, process and tools
+
+Identify and order the major items that went well and potential improvements
+
+Create a plan for making improvements to the way the scrum team does its work:
+	
+	Product Quality Improves
+	Processes improve
+
+********************************************************************************************************************
+
+Product Backlog:
+	List of all requirements / desireed work that is currently known
+	Ideally expressed such that each item has value to the users or customers of the product -> User Stories
+	Priortised by the product owner
+	Reprioritised at the start of each sprint
+
+Sprint Goal -> Short statement of what work will be focused on during the sprint
+
+*****************************************************************************************************************
+
+Managing Sprint Backlog:
+
+Never assigned, people sign up,
+Every day update the estimated work reminaing
+Only a small number of ACTIVE tasks and stories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
