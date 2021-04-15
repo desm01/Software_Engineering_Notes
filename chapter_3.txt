@@ -1,0 +1,159 @@
+Estimation, cost & scheduling:
+
+Each Project needs:
+    - Work Product
+    - Schedule
+    - Task
+    - Particpants
+
+Cost Estimation Techniques:
+    - Expert Judgement
+    - Past Experince = Databank of past projects / cost
+    - Top Down = Break project into smaller problems
+    - Function Point Analysis = Uses requirements to assess inputs, outputs, file access, screen design , interface and gives a cost
+    - Algorithmic Cost Modelling = COCOMO, Constructive Cost Modelling = Barry Boehmn 1981 creator. (Very influential)
+
+*********************************
+
+Function Point Analysis:
+
+Function points -> Start point for cost modelling.
+Used to quantify program functionality
+
+Instances of System are evaluated and given a weight. (Simple, Average, Complex):
+Inputs, Outputs, File Access, Screen Designs, User Interaction
+
+The raw value is known as 'unadjusted function points' (UFP)
+
+The UFP is adjusted to take account of the application. This adjustment is made by multiplying UFP by Technical Complexity Factor. (TCF)
+Main way to calculate TCF is to score 14 general system characteristics for degree of influence 0-5
+
+TCF calculated as 0.65 + 0.01 * DI
+
+Where DI is the total of degree of influence. Got from summing up 14 general system characterisitics
+
+TCF -> Also known as Value Adjusted Formula.
+
+Top score = 14 * 5 = 70
+
+A normal / moderate score = 14 * 2.5 = 35
+
+Functions Points calculated as ==== UFP * TCF
+
+FPs also used to estimate lines of code (LOC)
+1 FP:
+    - 98 lines of C
+    - 64 lines of C++
+    - 52 lines of Java
+
+Function Point in practice:
+
+Scores given are very subjective and dependent on experince / expert analysis
+Weighting of scores - very limited, some things both easy and hard
+Process needs adjusted for every programming environment
+Ultimately hard to estmiate how hard a featrue is to implement
+
+************************************************************************************
+COCOMO = Algorithmic Cost Modelling:
+    - Cost estimated as a mathematical function of the product, project & process atttributes
+    - Function uses historical cost data
+    - Product Attribute = Lines of code
+
+Original COCOMO exists in three forms:
+    - Basic gives a rough estimate of cost
+    - Intermidiate modifies the basic cost by factoring in project and process Attributes
+    - Advanced estimates phases and parts sepertaly
+
+Now superseded by COCOMO 2:
+    - Involves computation of multiple models, take into account modern approaches in SE (Dynamic Languages, Code re-use, database programming)
+
+The CLASS of the project affects the multiplers in the function:
+    Simple:
+        - small teams
+        - familiar environment
+        - well understood application
+        - no difficult non-functional requirements
+
+    Moderate:
+        - Project teams may have mixed experinces
+        - organisation has less familiarity with application
+        - more significant non-functional requirements
+
+    Embeded Development:
+        - Tight constraints
+        - Unusual for team to have deep experince
+
+COCOMO Formula:
+    E = a * KDSI**b; D = 2.5*E**c
+
+    E = Effort in Person months
+    a,b,c = constants based on project class / histotical data
+    KSDI = Thousands of delivered source instructions
+
+
+Intermediate COCOMO:
+
+Takes the basic formula but factors in personnel, products, computer and project attributes that affect cost.
+
+Cost is adjusted by attribute multipliers:
+    1. Product Attributes:
+        Required software relabilty
+        Database size
+        Product Complexity
+
+    2. Computer Attributes:
+        Execution time constraints
+        Storage Constraints
+        Virtual Machine volatiity
+        Computer turnaround time
+
+    3. Personnel Attributes:
+        Analyst Capability
+        Progrmmar Capability
+        Application experince
+        Virtual machine experince
+        Programming language experince
+
+    4. Project Attributes:
+        Modern programming practices
+        Software tools
+        Required development schedule
+
+**************************************************
+
+Configuration Management:
+
+In an on-going software development project, all aspects need managed
+Thousands of seperate documents are generated for large scale systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
