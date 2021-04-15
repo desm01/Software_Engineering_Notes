@@ -126,7 +126,161 @@ Configuration Management:
 In an on-going software development project, all aspects need managed
 Thousands of seperate documents are generated for large scale systems
 
+CM Plan:
+	- Defines types of documents / naming scheme
+	- Who takes reponsibility for CM procedures / version management
+	- Defines CM records that must be maintained
+	
+All CM info is maintained in configuration database
+This allows queries:
+	- Who has particular system version
+	- What platform is required for particular version
+	- What versions are affected by a change to component X
+	- How many reported faults in version T
 
+The CM database should be linked to sofrware being managed:
+	When programmer downloads code it is booked to him/her
+	Could be linked to development tools
+
+Derivation History:
+	- Record of changes applied to document or code component
+	- Should record, changes made, rationale for change, who made it, when it was implemented
+	- May be included as comment in code: if a standard prologue style is used for the derivation history, tools can auto process
+
+Change Request Form - Also used to make changes and record them
+
+***********************************************************
+
+Software Metrics:
+
+" When you measure what you are speaking about and express it in numbers, you know something about it " - Kelvin
+
+Allows processes and products to be assessed / indicators for improvement
+
+Size oriented metrics:
+	- Lines of code
+	- Effort (Person Months)
+	- Cost
+	- Pages Of Documentation
+	- Number Of Errors
+	- Errors per kLOC
+	- Cost per kLOC
+	- Errors per person months
+
+- Defect Removal Efficiency:
+DRE = E/(E+D)
+
+E = Errors before delivery
+D = Defects after delivery
+Measures how good you are at Quality Assurance
+
+DRE Should be 1. All errors detected and resolved, no defects after delivery 
+
+Defects per kLOC:
+C = No defects
+	Defect -> Lack of conformance to a requirement
+	Measure of correct-ness
+
+Integrity:
+	- A systems ability to withstand attacks incl accidental ones on its security
+	- Integrity = sum ( 1 - threat * (1 - security )  )
+	- Security = probability that an attack of that type will be repelled 
+
+Quality Metrics;
+	- Design Complexity:
+	'fan in' 'fan out' strucuture
+	
+	High Fan in = High Coupling (Number of calling functions)
+	High fan-out = High Coupling (Complexity)
+	
+	Complexity = Length * (Fan-in * Fan-out)**2
+	Length is any measure of program size sich as LOC 
+
+Other metrics include:
+	Cyclomatic Complexity = Complexity of program control
+	Length of identifiers
+	Depth of conditional nesting
+	For supporting documentation: The gunning fog index is used (i.e Complexity of documentation is assessed)
+
+Reliabilty Metrics:
+	This is a measure of the likelihood that the system will fail when a service request is made
+
+POFOD = 0.001 means that 1 out of every 1000 service requests result int failure
+
+Relevant for safety critical or non-stop systems
+
+Computed by measuring the number of system failures for a given number of system inputs
+
+Rate of occurence of failures at Time t:
+	The mean rate of failures per unit time t
+	ROCOF of 0.02 means that 2 failures are likely in each 100 operational time units
+	Relevant for Operating Systems / Transaction processing systems
+	
+	Good way of measuring whether system is deteriortating
+
+Mean Time To Failure:
+	Measure of time between observed failures
+	- MTTF of 500 means that the time between failures is on average 500 time units
+
+Mean time to repair:
+	Avergae time to correct a failure
+
+Availability:
+	Meaure of how likely the system is avaliable for use. Takes repair / restart time into account
+	AVAIL = MTTF / (MTTF + MTTR)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
