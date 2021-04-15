@@ -1,0 +1,98 @@
+Solution = Software Engineering:
+- Emphasis on systematic development
+- Concentration on finding out exact software requirements
+- Formal / Semi-formal specification of the requirements of a system
+- Building Prototypes
+- Greater emphasis on creating error-free code
+- Computer Assistance:
+	Modelling activity
+	Problem solving activity
+	Knowledge acquisition activity
+
+Software Engineering Definition:
+
+Sommerville:
+	Software engineering is concerned with the theories, methods, tools, developing, managing and evolving software products
+
+IEEE:
+	The application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software
+
+
+Standish Group - 1995.	365 IT Executives discussed 8,380 projects
+
+53% -> Delivered Operational but over budget / time. 
+	222% = Time Overrun
+	189% = Cost overrun
+
+31% -> Cancelled before they were completed
+
+16% -> Finished on time / on budget
+
+
+
+Fast forward to 2015 Standish Group Report:
+
+52% -> Delivered Operational but over budget / time.
+
+19% -> Cancelled before they were completed
+
+29% -> Finished on time / on budget
+
+**********************************************************************************
+
+Standish Group Chaos report analyses effect of diffrent methodologies
+
+-> Agile is useful for projects of all size in comparison to Waterfall
+
+-> Yet most succesful factors:
+	Executive Sponsorship
+	Emotional Maturity
+	User Involvement
+	Optimization
+	Skilled Resouces
+	Standard Architecture
+	Agile Process
+	Modest Execution
+	Project Management Expertise
+	Clear Business Objectives
+
+Though the Standish Report hyped Agile, two sides to every story.
+
+- Agile! The Good, The Hype, The Ugly (2014) = Bertrand Meyer
+
+" To summarize, these results are inconsistent, not confirmed by other studies, and based on proprietary data that independent researchers are not able to see "
+
+" The industry ignores such absolutism; every group devises its own selection, picking some practices and rejecting others " 
+
+
+Robert L Glass: Member of the Standish Group:
+	-> Says that surveys are biased towards failure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

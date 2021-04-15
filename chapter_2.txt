@@ -1,0 +1,229 @@
+Building a product
+
+Specification = Set out requirements and constraints
+Design = Produce a paper model of the system
+Manufacture = Build the system
+Test = Check the System meets the required specs
+Install = Deliver the system and ensure it's operational
+Maintain = Repair faults in system
+
+Client / Project Manager = Define Problems
+Developer / Project Manager = Develop Software
+Administator / End User = Operate System
+
+**********************************************************************************
+
+Different Models of Software Development
+
+Waterfall Model:	 Seperate, distinct phases of specification and development.
+
+A spiral model / Incremental Iterative Models:	Specification & Development intertwined. Various versions created, agile methods
+
+Formal Transformation:	A mathematical system model formally transformed to an implementation
+
+Re-use based development:	The system is assembled from existing components
+
+**********************************************************************************
+
+Waterfall Model:
+	Poor at risk management
+	Assumes all requirements can be obtained upfront
+	Managers love it! Nice milestones, no need to look back, Easy to check progress
+
+Doesn't work in real world, software is iterative. Tasks need revisited over time. Requirements change all the time.
+
+In waterfall testing comes right at the end, too risky as bugs can delay the entirety of the project. Testing can be rushed. Bad code.
+
+Agile on other hand uses rapidly growing prototypes. (Software is grown not built)
+
+Prototyping:
+	Throwaway prototyping = Build a prototype to test the hypothesis
+	(In XP this is known as a spike)
+
+	Evolutionary Prototyping = Build a prototype as a demonstrator, then use it as the base to add full functionality
+	
+	Prototyping very popular in GUI design
+	testing happens early = Lowered Risk
+
+Negatives of Prototyping:
+	Requires planning
+	Managers don't like it
+	No gurantee that the end will be reached
+	Architecture could get messy - need to refactor codebase
+
+*******************************************************************************
+
+Spiral Model:
+ 
+1. Determine objectives, alternatives & constraints
+2. Evaluate alteratives, identify and resolve risks
+3. Develop & verify next level product
+4. Plan next phase
+
+Each Spiral adds time and money
+
+To understand the spiral model we need to understand risk.
+Risk = Possibility that some loss is incurred
+Risk Exposure = probability * loss
+
+Risk Analysis:
+	Risk identification
+	Risk Assessment
+	Risk Prioritisation = Ranking
+	Risk Resolution = Accept, reduce or avoid it
+	Risk monitoring = where a risk is accepted (Monitor Possible Triggers)
+
+Spiral Model contains following activites:
+	#2 Evaluate alternatives
+	#2 Identify risk
+	#2 Resolve risks
+	#2 If risks can't be resolved, terminate project
+	#2 Develop a series of prototypes, starting with the highest first. (Deal with biggest ones first)
+
+	#3 Use Waterfall model for next development cycle
+	
+	#4 Evaluate the results of the cycle and plan for next round
+
+******************************************************************************
+
+Iterative / Incremental Development:
+
+- Early feedback
+- Better time to market for high priority
+- Easier to react to change
+- Lower Risk
+- Better estimates of how things are going
+- Architecture = Open and easy to change
+- Each stage is very valuable as all stages of product development happen
+- Iterations can overlap, doesn't have to stop for something to start
+
+***************************************************************************
+
+Gantt Chart:
+	Allows development strands and relationships between them to be represented on a timeline
+	Easy planning
+
+**************************************************************************
+
+Maturity Level:
+	A software development process is mature,
+	if the development activites are well defined and management has control over quality, budget and schedule of the project
+
+Process Maturity = Desrcibed with set of maturity levels
+With increased maturity, risk decreases
+
+SEI Cpabilty Maturity Level:
+
+1. Initial Level:
+	-> Ad Hoc approach
+	-> No requirements / problem specification
+	-> Inputs / Outputs not defined
+	-> Output is expected but nobody knows how to get there
+
+2. Repeatable:
+	-> Input / Output defined. Input = Problem Statement / Requirements. Output = Source Code
+	-> Process = Black Box:
+		-> No intermeditate products / deliverables  visible
+		-> Project plan used / tracked
+		-> All deliverables reviewed (QA Role)
+
+3. Defined:
+	-> Defined Software Process on all projects
+	-> Personnel assinged to improve processes
+	-> Activities of software development process = Well defined. Clear Entry / Exit conditions
+	-> Peer reviews
+	-> Intermediate Products = Well defined / visible
+
+4. Managed:
+	-> Quantitive Process Management = Quality / Productivity constantly measured
+	-> Quality Management = Quality Goals monitored
+	-> Uses early project info to inform future priorotes
+	-> Effects of changes tracked
+
+5. Optimised:
+	-> Measures from activites used to change and improve current process
+	-> Changes affect project and organisation,
+		-> Management scheme changes
+		-> Process model might completly change
+****************************************************************************************************************
+
+Agile Core Characteristics:
+	1. Satisfy customer: early and frequent delivery
+	2. Changing requirement
+	3. Keep delivery cycles short (2-6 weeks)
+	4. Business people / devs work together
+	5. Build projects around motivated indivduals
+	6. Emphasise face-face communication
+	7. Working software = main progress
+	8. Promote sustainable development
+	9. Continous attention - good design / technical excellence
+	10. Simplicity - Maxamise amount of good work
+	11. Best results emerge from self-organising teams
+	12. Teams reflect regularly on improvement
+
+Most popular Agile Methods:
+
+XP:
+	Pair programming. One writes code, other Unit tests
+	Refactoring codebase - Auto tests make sure nothing breaks
+	Simplist design works
+	Use of metaphors
+	Continuous integration
+
+Constant coding
+
+- 1-3 week Iterations. User stories = to gather requirements
+- Test driven development environment
+- Follow well established practices
+- Small incremental releases
+
+
+Continous Deployment = Used to AUTOMATICALLY deploy to production
+Continous Delivery = MANUALLY deploy
+
+Benefits of CI:
+	Fewer bugs
+	Integration issues resolved early
+	Developers fix error as they occur - Build doesn't break
+	CI server - can run automated tests everytime something is changed
+	More frequent releases - better feedback from customers
+	Faster iterations = small changes made easily
+	Release is more routine - less of an event
+	No need to pause development for release, happens automatically
+	Deployment triggered automatically for every change
+	Customers recieve improvements continously
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
