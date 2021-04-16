@@ -1,0 +1,167 @@
+	User Stories:
+
+A user story = Form of Agile Requirement Specifications
+
+"A concise, written description of piece of functionality => Valuable to software user
+
+Defines what's built in project:
+	Formulated in one or two sentences
+	Anyone can write them - typically team members
+	Work required to implement  - estimated by devs
+	Prioritised by customers - after estimation
+
+Benefits of User Stories:
+	-> They are quick to write / formalised requirements slow
+	-> Easy to modify / maintain
+	-> Encourage face-face contact
+	-> Allows requriements to quickly change
+	-> Minimal investment of time needed until really necessary
+	-> Allows projects to be broken into 'sprintable' chunks
+	-> Gives units of work that devs can estimate
+
+How to write User Stories:
+	As [role], I can [feature] so that [reason]
+
+Sometimes the [so that] part is left out -> Format open for interpretation
+
+*************************************************************************************************
+
+	The Three C's
+
+Card:
+	Stories traditionally written on index cards
+	Card annotated with estimates / notes
+
+Conversation:
+	Details of story are learned during conversation with customer
+
+Confirmation:
+	Acceptance tests confirm the story was implemented correctly
+
+
+
+	Story Cards: Following is recorded
+
+Story Number: Consecutive number
+Story Name: Used to identify conversations
+Story Description: As a.......
+Developers Estimates: In story points
+Conversation Notes: Can include sketches of UI etc
+Confirmation Details: Acceptance test details (Written reverse side)
+
+Advantages:
+	-> It keeps story small, description concise
+	-> Displayed easily for whole team to see
+	-> They can be moved around / marked as complete
+
+Disadvantages:
+	-> If teams are not co-located Stories cannot be shared
+	-> If teams don't have permanent workspace = impractical
+
+	User Roles:
+
+It is unusual for there to be only one user
+The role may refer to logical user / rather than physical user
+User appears to be service / software component
+
+Users vary by:
+	What they use software for
+	How they use software
+	Familiarity with software / computers
+
+*****************************************************************************
+
+	Acceptance Tests
+
+The story must be testable = Devs know when to finish
+Each story = One Acceptance Test
+
+A common acceptance Test:
+	Given <some inital context>
+	When <an event occurs>
+	Then <ensure some outcomes>
+
+Written / Refined by product owner / devs
+
+***************************************************************************
+
+User Stories -> Start of being written in form of epics, then get refined into sets of smaller more manageable stories
+
+Broken down into smaller and smaller categories.
+
+Characteristics of good user stories:
+	-> Independent: Easy to prioritise
+	-> Negotiable: not contracts, just reminders for discussion
+		Customers knows exactly what it is
+		Developers strives to understand clearly
+	-> Valuable: To customer
+		Estimable:
+			Devs know enough about the domain
+			Devs may not know enough about the tech
+			Story is too large to see the edges
+	-> Brief: Stick to recomended format
+	-> Testable: Very easy to write un-testable requirements:
+		Make sure product owner / customer on same page
+
+Story Writing Workshop:
+	Includes devs, users, customers, others
+	Brainstorm to generate stories
+	Goal is to write as many stories as possible
+	Some will be 'implementation ready'
+	Others will be 'epics'
+	No prioritisation done at this point
+	Hold user interviews
+	Use Questionaires to gain further stories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

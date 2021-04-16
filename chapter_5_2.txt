@@ -1,0 +1,99 @@
+	Story Estimation:
+
+At the start of a project, initial set of stories need to be estimated
+
+Estimates expressed in story 'points'
+
+Some practitioners say not to equate story points to a measure of time:
+	Others say think of them in terms of 'ideal programming days'
+
+The estimates should be relative as opposed to absolute
+
+
+So how are estimates made?
+	The team should make these estimates together using all expertise available
+	This process called 'planning poker'
+
+Participants include all of the developers in each team
+
+Each estimator is given a deck of planning cards
+
+Each card has a valid estimation value
+
+Some practitioners suggest that these values should follow the Fibonacci-like sequence:
+	-> Speeds up estimation time
+	-> Avoids false sense of accurate estimates
+	-> Indicates the stories that need to be split up
+
+Steps in planning poker:
+	-> Step 1:
+
+		Someone reads out the next user story, product owner answers any questions that the estimators might have about it
+		...discussion brief
+
+		Estimates not considered definite and final: little time invested
+			Important that relative estimates are good
+
+	-> Step 2:
+		
+		Each estimator privately selects a card representing their estimate
+		Cards not shown till everybody picks
+		All cards simultaneously turned
+	
+	-> Step 3:
+		
+		It is likely estimates not the same:	this is good
+		High / Low estimators -> Explain their choices
+		Not about arguing their cases, learning everyones thoughts
+		
+		Low estimator -> Not see some complexity (Vice-Versa)
+		Discussion lasts 2 minutes
+
+Eventually a conensous is reached -> New rounds possibly needed
+
+Difficulties:
+	If user stories not completly independent, then you may need to provide more than one estimate
+	In a planning exercise where diffrent teams estimate the same story, it is likely the estimates will differ, however it is also likely that common trends will emerge
+
+	If estimates >= 20:
+		User stories not understood -> Ask more questions
+		If story is complex -> Build product backlog, which involves breaking down problems into smaller sub-stories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
