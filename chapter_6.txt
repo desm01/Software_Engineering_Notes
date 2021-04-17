@@ -1,0 +1,173 @@
+Testing:
+
+How to classify bugs?
+	
+	Error: A programmer incorrectly implements a requirement
+	Fault: Error manifests itself in code, incorrect system behaviour (Wrong subtotal appears)
+	Failure: System does not work as intended or stops working completly
+	Testing: Systematic attempt to find faults and correct errors by operating / examining the system / recording results
+	Note: Error often used instead of fault
+
+See IEEE defintions.
+
+************************************************************
+
+Dynamic / Static verification
+
+	Dynamic -> Concerned with excercising and observing product behaviour (Executing Code / Testing)
+	Static -> Concerned with analysis of static system representation to discover problems (No code execution)
+
+Unit Testing:
+	- Individual subsystem
+	- Carried out by devs
+	- Goal: Confirm each subsystem is correctly coded / carries out intended functionality
+
+Integration Testing:
+	- Groups of subsystems, eventually the entire system
+	- Carried out by developers
+	- Test the interface between diffrent systems
+
+System Testing:
+	- The entire system
+	- Carried out by devs
+	- Determine system meets requirements
+
+Acceptance Testing:
+	- Evaluate system delivered by devs
+	- Carried out by client. Executing typical transactions on site on a trial basis
+	- Demonstrating system meets customer requirements
+
+Regression Testing:
+	Junit, Unit tests, possibly automatic.
+	
+************************************************************
+
+JUnit / Continuous Integration:
+
+With CI -> When code is changed, it is automatically tested. Tests regularly scheduled
+Unit Tests -> Like JUnit, make sure new code works, that amended code still works and new build is okay
+JUnit tests enforce regression testing - Make sure that after tests, everything is okay
+
+Unit Tests:
+	-> Objective - discover defects in programs
+	-> Succesful test - test which causes a program to behave in an anomalous way
+	-> Tests - show presence of defects
+	-> Only exhaustive testing shows a program is free from defects
+	-> Test Data = Inputs devised to test program
+	-> Test cases = Inputs to test the system and predicted outputs. Use Cases tested
+
+Techniques:
+	Informal -> incremental coding
+
+Static Analysis:
+	Hand execution: reading source code
+	Walkthrough: informal presentation to others
+	Code Inspection: Formal presenation to others
+	
+	Automated Tools:
+		Syntactic / Semantic Errors
+		Departure from coding standards
+	
+	Dynamic Analysis:
+		Black-box testing (Input/Output behavior)
+		White-box testing (Test the internal logic)
+		Data Structure based testing (Data types determine test cases)
+
+***************************************************
+
+Black Box Testing
+
+-> Test cases based on system specification
+-> Inputs from test data may reveal anomalous outputs
+-> Test planning begins early in software process
+-> Main problem  - Selection of inputs (Equivalence Partitioning)
+-> Partition system inputs and outputs into equivalence sets:
+	Use Extreme data on both ends and correct data
+-> Potential combinatorial explosion of test cases
+-> Often not clear whether the selected test cases uncover an error
+
+White Box Testing
+
+-> Sometimes called structural testing or glass box testing
+-> Derivation of test cases according to program strucutre
+	Knowledge of the program used to identify additional test cases
+-> Objective is to exercise all program statements
+-> Potentially infinite number of paths
+-> Tests what is done, instead of what should be done
+-> Cannot detect missing use cases
+
+Statement Testing
+Loop Testing
+Path Testing
+Branch Testing
+
+***************************************************************
+
+Static Verification:
+-> Verifying the conformance of software system and its specificatoin (Without executing code)
+-> Involves analysis of source text by software / humans
+-> Also performed on DOCUMENTs
+-> Discover errors early in software process:
+	2 main techniques:
+		Walkthrough -> 4-6 people examine code & list percieved problems
+		Program inspection -> Tools (FAGAN)
+
+More cost effective than testing for defection at unit / module level
+60% of program errors can be detected in software inspections
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
