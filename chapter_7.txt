@@ -10,4 +10,162 @@ Requirement Engineering has two main activites:
     Requirement Elicitation
     Requirement Analysis
 
+Elicitation:
+-> Requires collaboration, between domains / experts
+-> Hard to anticpiate effects that the new system will have on the organisation
+-> Diffrent users have diffrent requirements / priorities
+-> System end users and organisation who pay for system, have diffrent requirements
+-> Natural Language Problems
+
+How are requirements elicited?
+	Interviews:
+		Allow detailed, first hand information gathering
+		Expensive
+	Questionnaires:
+		Good if many people involved
+		Tend to have poor responses
+	Observation:
+		Accurate if done well, see what clients are doing
+		Expensive
+	Joint Application Design:
+		Workshops with clients facilate consensus on requirements
+		Meetings may mean clients away from workshops
+
+Process:
+	Identify Actors:
+		Diffrent types of users / access levels
+	
+	Identify Scenarios:
+		Concrete examples of how system is used
+		Communicate with users about requirements
+	
+	Identify Use Cases:
+		Description of all possible behaviour
+		These are abstractions, unlike scenarios
+	
+	Refine Use Cases:
+		Ensure completeness including exceptions / error paths
+
+	Identify relationships among use cases:
+		Factor out common functionality
+		Find dependencies
+	
+	Identify non-functional requirements:
+		
+Requirements Definiton:
+
+Traditionally there are two types of documents:
+	Requirements Definition:
+		Statement in natural language plus diagrams of the services -> Written for customers. Shows operational constraints
+	
+	Requirement Specification:
+		A structured document setting out detailed descriptions of the system services.
+		Written as a contract between client / contractor for customers + developers
+
+Requirements documents:
+	-> Many diffrent approaches
+	-> Typically grouped by feature
+	-> Requirements defintion describes requirement at high level
+	-> Requirement Specification gives in-depth details:
+		Name
+		Pre-conditions
+		Inputs
+		Source
+		Function Description
+		Outputs
+		Post-Conditions
+
+**************************************************************************** 
+
+UML = Use Case Modelling
+
+Use Cases describe system behaviour that is visible to user / another system
+Use Cases = Initalised by users or systems called actors
+An actor represents anything that needs to interact with the system to exchange information - it may be a role a user plays or another system
+Each use case is significant set of sequences of interaction between actor system -> Yeilds obersvable result
+Use Case diagrams represent an overview of the actors of the system / behaviour system provides
+The actor initalises system activity, a use case for purposes of completing some task
+
+If external party initates the input, it is considered an actor:
+	Potential human users of the system
+	Interactione with external systems
+
+USE CASES DO NOT describe internal details of system
+
+Must desribe all possible interactions (Especially ones where stuff goes wrong)
+
+*********************************************************************
+
+Once Use Case diagram = Built, start work on domain model / class diagram
+
+Use Cases: Key Points
+
+-> Usually named with verb points
+-> Actors are nouns
+-> Steps in active voice
+-> Describes a complete transaction
+-> Exceptions are seperated out
+-> Do not describe the interface in detail
+-> Use extend for optional behaviour
+-> Use include for shared behaviour that is included in normal flow
+
+Non-functinal requirements: Define system properties / constraints
+
+Process Requirements: May also be specified mandating particular CASE (Computer Aided Software Engineering)
+
+Non-functional requirements, may be more critical than functional requirements:
+	Not met -> System is useless
+
+************************************************************
+
+Requirement Verifiability:
+Requirements should be written so that they can be objectively verified
+
+Problem with following requirements is its use of vague terms such as 'errors shall be minimized'
+
+the system should be easy to use by experinced controllers, and should be built so user errors are minimized
+
+Error Rate should be quanitfied
+
+Experinced controllers should be able to use all the system functions after a total of two hours training. After training the error rate should deceline
+
+Categories of non-functional requirements:
+
+-> Usability - ease of learning, operating, adherence to users conventions
+-> Reliability - abilty to perform functions under stated conditions, related to robustness (Dealing with extreme inputs)
+-> Performance - Response time, throughput, accuracy
+-> Supportability - adaptiblity, maintainabilty, portability
+-> Implementation Requirements - Use of language, tools, hardware
+-> Interface requirements - Linkage to legacy systems
+-> Operations requirements - Constrains on administration / system management
+-> Packaging requirements - constraints on how it is delivered (USB / Disk)
+-> Legal Requirements - Licensing, certification etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
