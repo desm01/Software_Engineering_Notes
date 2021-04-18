@@ -1,0 +1,13 @@
+Requirements:
+
+Requirement Engineering -> Process of establishing the services that the customer requires from a system and the contstraints under which it operates and is developed
+
+What is a requirement:
+    A feature a system must have
+    Or a constraint that must be satisified
+
+Requirement Engineering has two main activites:
+    Requirement Elicitation
+    Requirement Analysis
+
+
