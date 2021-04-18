@@ -1,7 +1,7 @@
 Testing:
 
 How to classify bugs?
-	
+
 	Error: A programmer incorrectly implements a requirement
 	Fault: Error manifests itself in code, incorrect system behaviour (Wrong subtotal appears)
 	Failure: System does not work as intended or stops working completly
@@ -39,7 +39,7 @@ Acceptance Testing:
 
 Regression Testing:
 	Junit, Unit tests, possibly automatic.
-	
+
 ************************************************************
 
 JUnit / Continuous Integration:
@@ -63,11 +63,11 @@ Static Analysis:
 	Hand execution: reading source code
 	Walkthrough: informal presentation to others
 	Code Inspection: Formal presenation to others
-	
+
 	Automated Tools:
 		Syntactic / Semantic Errors
 		Departure from coding standards
-	
+
 	Dynamic Analysis:
 		Black-box testing (Input/Output behavior)
 		White-box testing (Test the internal logic)
@@ -116,6 +116,99 @@ More cost effective than testing for defection at unit / module level
 60% of program errors can be detected in software inspections
 
 
+FAGAN Software Inspections:
+Involves programmar (Author)
+Inspector -> Finds errors
+Reader -> Paraphrases the code/ documents
+Scribe -> Records results
+Chairman -> Manages the process
+Chief Moderator -> Improves the inspection process
+
+Checklist looks for:
+    Data faults = Variables declared, never used / initalised / array bound errors
+    Control Faults = Unreachable Code / Condition faults
+    I-O Faults = Variables output twice, values not changed
+    Interface faults = parameter type mismatch, uncalled methods
+    Storage management = Unassgined pointers / pointer artitmetic
+
+Programs like SpotBugs, FindBugs look for bugs in code
+
+***********************************************************
+
+Stress Testing:
+Transaction systems / high web traffic
+
+Order in which systems are tested, decicdes testing strategy
+
+Big Bang Stradedy:
+
+Entire system is assembled and tested at once. Most common.
+No Prioir module testing
+
+Bottom Up:
+Lowest layer modules tested,
+Then systems that call them first subsystems tested
+Requires Driver Code to test everything
+
+-> Useful for intefrating OOP systems
+-> Bad as tests most important system last
+
+Top Down:
+Top layer tested first
+Go through each layer until all subsystems are incorporated
+Special code needed to test each layer
+
+-> Most important layer tested first
+-> Writing stubs (tests) is difficult / time consuming
+
+Sandwich Testing Strategy:
+Combines top down with bottom up
+Goal is to minimize the number of stubs
+Hard to pick which layer to test
+
+-> Does not test all layers thoroughly before integration
+-> Allows for both top down / bottom up
+
+System Testing:
+-> Functional Testing (Black Box)
+-> Structure Testing (White Box)
+-> Performance Testing
+-> Aceeptance Testing
+-> Installation Testing
+
+Impact of requirements on System Testing:
+-> More Explicit Requirements = Easier to test
+-> Quality of use cases determine ease of functionality
+-> Quality of sub system compisition determines ease of strucre tests
+-> Quality of non-functional requirements and constraints determine the ease of performance tests
+
+***************************************************
+
+Performance Testing -> Can be broken down into:
+
+Stress Tests = Maximuim users, peak demands, extended operations
+Volume Tests = What happens if large amounts of data happens
+Configuration Tests = Test the various software / hardware configurations
+Compatibilty Tests = Backwards compatibility?
+Security Tests = Violate requirements
+Timing Tests = Response times on given function
+Environmental Tests = Tolerance of heat / motion / portability / humidity
+Quality Testing = Test relibaility / maintainability / avalibility of system
+Recovery Testing = Tests systems response to error / data loss
+Human Factor Testing = User Interface / usability
+
+**************************************************
+
+Acceptance Testing:
+
+Demonstarte that product is ready for release,
+Tests made by client / sponsor
+Many tests taken from integration testing
+All done by Client
+
+Alpha Test:     Sponser uses software   Controlled environemnt, dev can fix issues
+
+Beta Test:  Conducted at sponsers site  No dev to fix issues    Realistic environment   Sponser may be discouraged
 
 
 
@@ -123,7 +216,20 @@ More cost effective than testing for defection at unit / module level
 
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
