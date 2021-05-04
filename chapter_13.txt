@@ -1,0 +1,44 @@
+Software Assurance: Intended to deal with:
+	Malice
+	Error
+	Mischance
+
+-> Prevent certain things from happening: Unathorised foregin government can read a citizens files
+
+Traditional Software Engineering -> Aims to ensure certain things DO happen.
+
+Security Engineering covers Cryptography, Security.
+	Most systems fail because desginers protect the wrong things / right things in wrong way
+
+
+Security Engineering involves combo of:
+	User Authentication
+	Transaction Integrity
+	Accountability
+	Fault Tolerance
+	Message Secrecy
+	Covertness -> Keep out of sight
+
+UKs first national cyber security program established and funded coalesce ad hoc activity across 5 facets of trustworthy software:
+
+Trustworthiness = Safety, Reliability, Availability, Resilience, Security
+
+Cybok project aims to bring cyber security into line with the more established sciences by distilling knowledge from major international recognised experts to form a security Body of knowledge
+
+Data Information Security Triad:
+	Confidentially / Integrity / Avaliability
+
+Confidential:
+	Protection against unathorised access, passwords, health data transmitted over open channels
+	Confidenttiality: Disclousre of sensitive info
+
+Integrity:
+	State - a measure of the validity and fidelity of a data object:
+		Ensuring it's correct / corresponds to the original
+	Function - Maintaining information exactly as it was inputted, ensuring that it can be audited to affirm its reliability
+		Preventing unintentional change / corruption during transport
+	Process - Verifying data has remained unaltered
+
+Availabilty:
+	Providing user access at the approiate time (Internet) / Correct location, communication services
+	Medical emergency services, sales channels, online platforms

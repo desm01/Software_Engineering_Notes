@@ -1,0 +1,56 @@
+Designing a UI:
+
+Meet and Exceed customer expecatations.
+
+If System is similar to other well established systems:
+	Provide features as:
+				Convenient
+				Usable
+				Entertaining
+				Refined
+					As customers expect
+
+Keep user-system interactions as simple as possible
+
+When features need to be explaine:
+	Provide the right levels of context-specific help
+
+Make sure customers will want to return, so avoid:
+	Colour schemes that are hard on the eyes / fonts that can't be read
+	Sound effects the user can't control
+	Unnecessarily complex navigation / control paths
+	
+MAKE most important features easiest to access and use
+
+The customer wants to return so:
+
+Provide a good intro for begineers - immediate usability
+
+Adapt to customers usage patterns
+	Remember where files are, where last session ended
+
+Allow customers to customise:
+	Adjust / Adapt features - so that the system enables them to do what they want to do,
+		System becomes their own
+
+Cover the basics well
+
+Then you can innovate
+
+Providing features that your customer wants that no-one else is offering, and you know how to deliever is #1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					

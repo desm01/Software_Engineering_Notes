@@ -1,0 +1,19 @@
+Realisation = Developing a high-level interaction for each use case
+
+Uses interaction diagrams:
+	Sequence Diagrams
+	Collaboration Diagrams
+
+Subsystems divided into layered architecture:
+	Presentation = UI
+	Application = Business Logic
+	Storage = Storage Pattern
+
+	Define clean / simple interactions between layers
+
+
+
+
+
+
+
